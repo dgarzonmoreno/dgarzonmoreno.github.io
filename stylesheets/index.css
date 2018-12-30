@@ -66,6 +66,19 @@ html, body{
 }
 
 @media (max-width: 768px){
+    #quote{
+        display: flex;
+        font-family: 'Baloo', cursive;
+        margin-top: 15%;
+    }
+    .carousel-item img {
+        height: 740px;
+        margin-top: 20%;
+    }
+    #footer{
+        height: 40px;
+        margin-top: 15%;
+    }
     .carousel-inner{
         height: 236.66px;
         background-position: center;
