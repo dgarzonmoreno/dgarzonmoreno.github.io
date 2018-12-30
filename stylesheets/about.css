@@ -1,0 +1,86 @@
+html, body{
+    font-family: "Sarabun", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar.scrolled{
+    background: rgba(255,255,255,0.99);
+    transition: background 1s;
+}
+
+#introduction{
+    display: flex;
+}
+
+#introduction p{
+    display: flex;
+    line-height: 2.5;
+    font-weight: 580;
+    color: blue;
+}
+
+#information{
+    height: 100%;
+}
+
+#footer{
+    height: 40px;
+}
+
+#title{
+    font-family: 'Baloo', cursive;
+}
+
+#info{
+    color: blue;
+    font-weight: 580;
+    line-height: 2.5;
+}
+
+#photo{  
+    height: 85%;
+    width:  85%;
+    background-position:center; 
+    background-size: auto;
+}
+
+#leftLogo{
+    background-position:center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#rightLogo{
+    background-position:center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#leftLogo:hover{
+    transform: rotateZ(320deg) scale(1.5,1.5)
+}
+
+#rightLogo:hover{
+    transform: rotateZ(40deg) scale(1.5,1.5)
+}
+
+#color{
+    background-color: rgb(242, 242, 245);
+    height: 35%;
+    font-family: 'Rock Salt', cursive;
+}
+
+@media (max-width: 768px){
+    #color{
+        background-color: rgb(242, 242, 245);
+        height: 45%;
+        font-family: 'Rock Salt', cursive;
+    }
+}
