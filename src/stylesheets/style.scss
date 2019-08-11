@@ -1,9 +1,9 @@
 .appFont {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 .verticalNav{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     padding-right: 0rem !important;
     padding-bottom: 0rem !important;
@@ -19,6 +19,12 @@
     height: 10px;
     width: 10px;
     padding: 0.5em !important;
+}
+
+.circular.segment:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,.03);
+    color: rgba(0,0,0,.95);
 }
 
 .menuIcon{

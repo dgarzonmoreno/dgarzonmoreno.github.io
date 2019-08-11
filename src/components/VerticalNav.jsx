@@ -60,7 +60,7 @@ class VerticalNav extends React.Component {
     render() {
         return (
             <div className="ui vertical menu verticalNav three wide column">
-                <a 
+                <a
                 className={'item ' + (this.state.isHomeToggled ? 'active' : null) }
                 onClick={() => this.activateNavButton(`${ HOME }`)}>
                     <i class="home icon"></i>
