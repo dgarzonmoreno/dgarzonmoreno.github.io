@@ -1,12 +1,12 @@
-import React from 'react';
-import '../stylesheets/index.scss';
+import React, {Fragment} from 'react';
+import '../stylesheets/style.scss';
+import VerticalNav from './VerticalNav';
 
 const App = () => {
     return(
-        <p 
-        className = "appFont">
-            CRAP
-        </p>
+     <Fragment>
+         <VerticalNav />
+     </Fragment>   
    );
 }
 
