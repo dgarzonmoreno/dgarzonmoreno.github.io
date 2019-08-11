@@ -13,6 +13,7 @@ class VerticalNav extends React.Component {
         };
     }
 
+    //TODO: Optimize toggling procedure (only currentlySelected navtab should be set to false)
     activateNavButton(entityName) {
         if ( entityName === `${ HOME }` ) {
             this.setState( { isHomeToggled: true } );
@@ -59,7 +60,7 @@ class VerticalNav extends React.Component {
     
     render() {
         return (
-            <div className="ui vertical menu verticalNav three wide column">
+            <div className={"ui vertical menu verticalNav " + (this.props.isMenuToggled ? null : 'collapsedNav')}>
                 <a
                 className={'item ' + (this.state.isHomeToggled ? 'active' : null) }
                 onClick={() => this.activateNavButton(`${ HOME }`)}>

@@ -10,6 +10,7 @@ class App extends React.Component {
     }
 
     toggleMenu = () => {
+        console.log('You clicked the menu button:' + this.state.isMenuToggled)
         this.setState({isMenuToggled: !this.state.isMenuToggled})
     }
 

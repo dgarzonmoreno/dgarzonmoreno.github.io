@@ -3,16 +3,25 @@
 }
 
 .verticalNav{
-    height: 110vh;
+    height: 200vh;
     width: 100%;
     padding-right: 0rem !important;
     padding-bottom: 0rem !important;
     padding-top: 1rem;
 }
 
+.expandedNav {
+    width: 15rem !important;
+}
+
+.collapsedNav {
+    width: 0% !important;
+}
+
 .Body{
     background-color: rgb(242, 242, 242);
     padding-top: 1.2rem !important;
+    width: 84% !important;
 }
 
 .circular.segment{
