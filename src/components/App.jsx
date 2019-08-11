@@ -1,11 +1,15 @@
 import React, {Fragment} from 'react';
 import '../stylesheets/style.scss';
 import VerticalNav from './VerticalNav';
+import Body from './Body';
 
 const App = () => {
     return(
      <Fragment>
-         <VerticalNav />
+         <div className="ui grid">
+            <VerticalNav />
+            <Body />
+         </div>
      </Fragment>   
    );
 }
