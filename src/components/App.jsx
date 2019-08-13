@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import '../stylesheets/style.scss';
 import VerticalNav from './VerticalNav';
 import Body from './Body';
+import {Animated} from "react-animated-css";
 
 class App extends React.Component {
     constructor(props) {
@@ -17,9 +18,9 @@ class App extends React.Component {
     render() {
         return(
             <Fragment>
-                <div className="ui grid">
-                   <VerticalNav isMenuToggled = {this.state.isMenuToggled} />
-                   <Body onMenuClick={this.toggleMenu}/>
+                <div className="ui grid wrapper">
+                    <VerticalNav isMenuToggled = {this.state.isMenuToggled} />
+                    <Body onMenuClick={this.toggleMenu}/>
                 </div>
             </Fragment>   
         );
